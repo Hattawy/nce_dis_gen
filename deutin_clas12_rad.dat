@@ -1,0 +1,19 @@
+-81325	! Initialization (Seed) for Random number generator
+n	! target nucleon - d = inclusive electrons on proton and neutron
+y	! Do you want light cone wave function?
+0.15	! lower Q2-limit (for ext. rad, should be 0.15 for E=10.4, Q2lab>1)
+1.0	! lower lab Q2 limit after radiation
+15.0	! upper Q2 limit
+10.4	! beam energy
+22.0	! upper nu limit
+0.5	! lower nu limit
+n	! Only nonresonant part of cross section?
+0.06	! plow - negative = free nucleons
+180.0   ! most backward
+0.0	! most forward
+0.0	! Pz
+0.0	! Pzz
+100000	! Number of simul. kilo-evts; 10^5 => 4400 output evts, 9 hrs, 367 kB
+2250.	! Torus Current in Amps
+5.0	! Minimum scattering angle in degree
+1.5	! Minimum Lab Eprime
